@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<score xmlns="http://denemo.sourceforge.net/xmlns/Denemo" version="4">
+  <scoreheader-directives>
+    <directive>
+      <tag>ScoreTagline</tag>
+      <postfix>tagline=""
+</postfix>
+      <override>32</override>
+    </directive>
+  </scoreheader-directives>
+  <paper-directives>
+    <directive>
+      <tag>PrintAllHeaders</tag>
+      <postfix>print-all-headers = ##t
+</postfix>
+      <override>32</override>
+    </directive>
+  </paper-directives>
+  <lilycontrol>
+    <papersize>a4</papersize>
+    <fontsize>20</fontsize>
+    <orientation>1</orientation>
+  </lilycontrol>
+  <movement-number>1</movement-number>
+  <movement>
+    <edit-info>
+      <staffno>2</staffno>
+      <measureno>1</measureno>
+      <cursorposition>4</cursorposition>
+      <zoom>100</zoom>
+      <system-height>100</system-height>
+      <page-zoom>100</page-zoom>
+      <page-system-height>100</page-system-height>
+    </edit-info>
+    <score-info>
+      <tempo>
+        <duration>
+          <numerator>1</numerator>
+          <denominator>4</denominator>
+        </duration>
+        <bpm>120</bpm>
+      </tempo>
+    </score-info>
+    <staves>
+      <staff id="id0">
+        <staff-info>
+          <number-of-lines>5</number-of-lines>
+          <transpose>0</transpose>
+          <instrument></instrument>
+          <device-port>NONE</device-port>
+          <volume>127</volume>
+          <midi_prognum>0</midi_prognum>
+          <midi_channel>0</midi_channel>
+          <hasfigures>0</hasfigures>
+          <hasfakechords>0</hasfakechords>
+        </staff-info>
+      </staff>
+    </staves>
+    <voices>
+      <voice id="id1">
+        <voice-info>
+          <voice-name>voice 1</voice-name>
+          <first-measure-number>1</first-measure-number>
+        </voice-info>
+        <initial-voice-params>
+          <staff-ref staff="id0"/>
+          <clef name="treble"/>
+          <key-signature>
+            <modal-key-signature note-name="C" mode="major"/>
+          </key-signature>
+          <time-signature>
+            <simple-time-signature>
+              <numerator>8</numerator>
+              <denominator>4</denominator>
+            </simple-time-signature>
+          </time-signature>
+        </initial-voice-params>
+        <measures>
+          <measure>
+            <chord show="true" id="id2">
+              <duration base="eighth"/>
+              <notes>
+                <note id="id3">
+                  <middle-c-offset>11</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id4">
+              <duration base="eighth"/>
+              <notes>
+                <note id="id5">
+                  <middle-c-offset>11</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id6">
+              <duration base="eighth"/>
+              <notes>
+                <note id="id7">
+                  <middle-c-offset>12</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id8">
+              <duration base="eighth"/>
+              <notes>
+                <note id="id9">
+                  <middle-c-offset>13</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <rest show="true" id="id10">
+              <duration base="whole"/>
+            </rest>
+            <chord show="true" id="id11">
+              <duration base="quarter"/>
+              <notes>
+                <note id="id12">
+                  <middle-c-offset>14</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <rest show="true" id="id13">
+              <duration base="quarter"/>
+            </rest>
+          </measure>
+        </measures>
+      </voice>
+      <voice id="id14">
+        <voice-info>
+          <voice-name>voice 2</voice-name>
+          <first-measure-number>1</first-measure-number>
+        </voice-info>
+        <initial-voice-params>
+          <staff-ref staff="id0"/>
+          <clef name="treble"/>
+          <key-signature>
+            <modal-key-signature note-name="C" mode="major"/>
+          </key-signature>
+          <time-signature>
+            <simple-time-signature>
+              <numerator>8</numerator>
+              <denominator>4</denominator>
+            </simple-time-signature>
+          </time-signature>
+        </initial-voice-params>
+        <measures>
+          <measure>
+            <rest show="true" id="id15">
+              <duration base="quarter"/>
+            </rest>
+            <stem-directive type="down"/>
+            <chord show="true" id="id16">
+              <duration base="quarter"/>
+              <notes>
+                <note id="id17">
+                  <middle-c-offset>3</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id18">
+              <duration base="quarter"/>
+              <notes>
+                <note id="id19">
+                  <middle-c-offset>2</middle-c-offset>
+                </note>
+                <note id="id20">
+                  <middle-c-offset>14</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id21">
+              <duration base="quarter"/>
+              <notes>
+                <note id="id22">
+                  <middle-c-offset>11</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id23">
+              <duration base="quarter"/>
+              <notes>
+                <note id="id24">
+                  <middle-c-offset>1</middle-c-offset>
+                </note>
+                <note id="id25">
+                  <middle-c-offset>12</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id26">
+              <duration base="quarter"/>
+              <notes>
+                <note id="id27">
+                  <middle-c-offset>13</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id28">
+              <duration base="quarter"/>
+              <notes>
+                <note id="id29">
+                  <middle-c-offset>0</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+            <rest show="true" id="id30">
+              <duration base="quarter"/>
+            </rest>
+          </measure>
+        </measures>
+      </voice>
+    </voices>
+  </movement>
+</score>

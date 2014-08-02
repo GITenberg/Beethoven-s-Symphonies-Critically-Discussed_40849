@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<score xmlns="http://denemo.sourceforge.net/xmlns/Denemo" version="4">
+  <scoreheader-directives>
+    <directive>
+      <tag>ScoreTagline</tag>
+      <postfix>tagline=""
+</postfix>
+      <override>32</override>
+    </directive>
+  </scoreheader-directives>
+  <paper-directives>
+    <directive>
+      <tag>PrintAllHeaders</tag>
+      <postfix>print-all-headers = ##t
+</postfix>
+      <override>32</override>
+    </directive>
+  </paper-directives>
+  <lilycontrol>
+    <papersize>a4</papersize>
+    <fontsize>20</fontsize>
+    <orientation>1</orientation>
+  </lilycontrol>
+  <movement-number>1</movement-number>
+  <movement>
+    <edit-info>
+      <staffno>1</staffno>
+      <measureno>2</measureno>
+      <cursorposition>0</cursorposition>
+      <zoom>100</zoom>
+      <system-height>100</system-height>
+      <page-zoom>100</page-zoom>
+      <page-system-height>100</page-system-height>
+    </edit-info>
+    <score-info>
+      <tempo>
+        <duration>
+          <numerator>1</numerator>
+          <denominator>4</denominator>
+        </duration>
+        <bpm>120</bpm>
+      </tempo>
+    </score-info>
+    <staves>
+      <staff id="id0">
+        <staff-info>
+          <number-of-lines>5</number-of-lines>
+          <transpose>0</transpose>
+          <instrument></instrument>
+          <device-port>NONE</device-port>
+          <volume>127</volume>
+          <midi_prognum>0</midi_prognum>
+          <midi_channel>0</midi_channel>
+          <hasfigures>0</hasfigures>
+          <hasfakechords>0</hasfakechords>
+        </staff-info>
+      </staff>
+    </staves>
+    <voices>
+      <voice id="id1">
+        <voice-info>
+          <voice-name>voice 1</voice-name>
+          <first-measure-number>1</first-measure-number>
+        </voice-info>
+        <initial-voice-params>
+          <staff-ref staff="id0"/>
+          <clef name="bass"/>
+          <key-signature>
+            <modal-key-signature note-name="E" accidental="flat" mode="major"/>
+          </key-signature>
+          <time-signature>
+            <simple-time-signature>
+              <numerator>2</numerator>
+              <denominator>4</denominator>
+            </simple-time-signature>
+          </time-signature>
+        </initial-voice-params>
+        <measures>
+          <measure>
+            <lily-directive tag="Dynamic" display="&#x25C6;" midibytes="111" graphic_name="Fortissimo" ty="60" gx="12" gy="70" minpixels="10" override="131328">s8*0 \ff</lily-directive>
+            <rest show="true" id="id2">
+              <duration base="eighth"/>
+            </rest>
+            <chord show="true" id="id3">
+              <duration base="eighth"/>
+              <notes>
+                <note id="id4">
+                  <middle-c-offset>-2</middle-c-offset>
+                  <accidental name="flat" show="false"/>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id5">
+              <duration base="eighth"/>
+              <notes>
+                <note id="id6">
+                  <middle-c-offset>-2</middle-c-offset>
+                  <accidental name="flat" show="false"/>
+                </note>
+              </notes>
+            </chord>
+            <chord show="true" id="id7">
+              <duration base="eighth"/>
+              <notes>
+                <note id="id8">
+                  <middle-c-offset>-2</middle-c-offset>
+                  <accidental name="flat" show="false"/>
+                </note>
+              </notes>
+            </chord>
+          </measure>
+          <measure>
+            <chord show="true" id="id9">
+              <duration base="half"/>
+              <notes>
+                <note id="id10">
+                  <middle-c-offset>-4</middle-c-offset>
+                </note>
+              </notes>
+            </chord>
+          </measure>
+        </measures>
+      </voice>
+    </voices>
+  </movement>
+</score>
